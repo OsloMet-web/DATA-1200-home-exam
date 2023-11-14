@@ -62,7 +62,7 @@
   }
   
   .flex-container > div {
-    width: auto;
+    width: 100%;
     margin: 10px;
     
   }
@@ -71,3 +71,9 @@
     height: auto;
 
   }
+  picture img {
+    width: 100%; /* Gjør bildene fylle sin container (100% bredde) */
+    height: auto; /* Bevarer bildenes proporsjoner */
+    border-radius: 10px; /* Runde hjørner for bilder */
+    margin: 10px; /* Legg til mellomrom mellom bildene */
+}
