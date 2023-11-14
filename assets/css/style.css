@@ -55,25 +55,43 @@
     
 
 }
- /*for kantine */
- .flex-container {
-    display: flex;
-    background-color: rgb(0,75,30);
-  }
-  
-  .flex-container > div {
-    width: 100%;
-    margin: 10px;
-    
-  }
-  .line1-right{
-    width: 100%;
-    height: auto;
 
-  }
-  picture img {
-    width: 100%; /* Gjør bildene fylle sin container (100% bredde) */
-    height: auto; /* Bevarer bildenes proporsjoner */
-    border-radius: 10px; /* Runde hjørner for bilder */
-    margin: 10px; /* Legg til mellomrom mellom bildene */
+ /* For kantine */
+.flex-container {
+    display: flex;
+    background-color: rgb(0, 75, 30);
+    padding: 20px;
+    width: 100%;
+}
+
+.flex-container > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.line1-right {
+    width: 85%;
+    height: auto;
+}
+
+/* Legg til stiler for bilder innenfor <picture> -elementet */
+picture {
+    display: flex;
+    width: 100%;
+    height: auto; /* Fyller høyden av <picture> container */
+    margin: 10px;
+}
+
+picture img {
+    max-width: 60%; /* Sett maks bredde til 100% av containeren */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover-effekt for bilder */
+picture img:hover,
+.line1-right:hover {
+    transform: scale(1.1);
 }
