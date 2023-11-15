@@ -107,6 +107,8 @@ article{
  /* For kantine */
 .text-section {
     text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .flex-container {
@@ -118,18 +120,26 @@ article{
 }
 
 .image-box {
+    position: relative;
+    overflow: hidden;
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
     text-align: center;
-    flex: 0 0 45%; /* Adjust width as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    flex: 0 0 calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Add a pointer to indicate that the image is clickable */
+    transition: transform 0.3s ease; /* Add transition effect for zoom */
+}
+
+.image-box:hover {
+    transform: scale(1.1); /* Increase size on hover */
 }
 
 .line1-right {
-    width: 100%;
-    max-width: 100%;
+    width: 60%;
+    max-width: 60%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
