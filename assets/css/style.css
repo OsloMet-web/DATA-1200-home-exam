@@ -1,5 +1,3 @@
-
-
 /*--------------------------Topical page*/
 /*-----logo*/
 /*
@@ -19,13 +17,14 @@
     width: 150px;
     height:150px;
     padding: 15px;
-
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    float: right
+    float: left;
+    
+   
 
 }
 #circle-cover-bg {
@@ -35,7 +34,6 @@
 }
 
 /*Menu header*/
-
 .menu-header {
     float: none;
     display: inline-flexbox;
@@ -52,93 +50,48 @@
     text-decoration: none;
     color:white;
 }
-/*homepage*/
-.flexbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    padding: 20px;
-    width: 80%;
-    height: auto;
-    background-color: rgb(0,75,30);
-    margin: 0 auto;
-    margin-top: 35px;
-    position: relative;
-}
-
-.flexbox > div {
-    width: auto;
-    max-width: 80%;
-    height: relative;
-    justify-content: center;
-    margin: 10px;
-    padding: 14px;
-    font-size: 20px;
-      
-    
-}
-
-.div1{
-    display: flex;
-    height: 200px;
-    width: 100%;
-    position: left;
-}
-.div2{
-    background-color: #f1f1f1;
-    width: 100%;
-    height: relative;
-    width: auto;
-}
-
-article{
-    margin: 100px 140px;   
-
-}
-.located {
+.located{
     width: 600px;
     
 
 }
+/* For kantine */
+/* Existing styles ... */
 
- /* For kantine */
-.flex-container {
-    display: flex;
-    background-color: rgb(0, 75, 30);
-    padding: 20px;
-    width: 100%;
+/* Additional styles for the new structure */
+.text-section {
+    text-align: center;
 }
 
-.flex-container > div {
-    flex: 1;
-    margin: 10px;
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-box {
+    background-color: rgb(0,75,30);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+    flex: 0 0 45%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .line1-right {
-    width: 85%;
-    height: auto;
-}
-
-/* Legg til stiler for bilder innenfor <picture> -elementet */
-picture {
-    display: flex;
-    width: 100%;
-    height: auto; /* Fyller høyden av <picture> container */
-    margin: 10px;
-}
-
-picture img {
-    max-width: 60%; /* Sett maks bredde til 100% av containeren */
+    width: 80%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
-    margin: 10px;
-    transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
 
-/* Hover-effekt for bilder */
-picture img:hover,
-.line1-right:hover {
-    transform: scale(1.1);
+.image-text {
+    text-align: center;
+    margin-top: 10px;
 }
+
+/* ... Existing styles ... */
