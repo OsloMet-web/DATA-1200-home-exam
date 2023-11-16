@@ -172,3 +172,9 @@ article{
     margin-top: 10px;
 }
 
+/*accessibility*/
+.ul {
+list-style-type: circle;
+margin: 5px;
+}
+
