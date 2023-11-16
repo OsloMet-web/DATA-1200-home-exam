@@ -151,3 +151,24 @@ article{
 }
 
 /* ... Existing styles ... */
+/* Legg til denne delen i stilarket */
+.staff-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.staff-member {
+    margin-bottom: 20px;
+}
+
+.staff-member img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.staff-member p {
+    margin-top: 10px;
+}
+
