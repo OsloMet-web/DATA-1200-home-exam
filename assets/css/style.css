@@ -141,25 +141,41 @@ article{
 
 /* stylen for staff */
 
+/* Legg til denne delen i stilarket (style.css) */
+
 .staff-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
     background-color: rgb(240, 245, 242);
-    
+}
+
+.text-section {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .staff-member {
-    width: 45%; /* Juster bredden av hvert staff-member-element */
-    margin-bottom: 10px;
+    width: 15%; /* Juster bredden av hvert staff-member-element */
+    margin-bottom: 20px;
     text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.staff-member:hover {
+    transform: scale(1.05); /* Øk størrelsen litt på hover */
 }
 
 .staff-member img {
     width: 20%;
-    max-width: 30px;
+    max-width: 20%;
     height: auto;
     border-radius: 10px;
 }
@@ -167,8 +183,64 @@ article{
 .staff-member p {
     margin-top: 10px;
     color: #555;
-   
+    font-size: 16px;
 }
+
+/*for footer*/
+
+footer {
+    background-color: rgb(0, 75, 30);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content li {
+    margin-bottom: 5px;
+}
+/* Legg til denne delen i stilarket (style.css) */
+
+footer a {
+    color: white;
+    text-decoration: none; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Legg til understrekning på hover hvis ønskelig */
+}
+
+
+/* Juster stilene for sosiale medieikoner her hvis nødvendig */
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Oppdater font-stiler og farger etter behov */
+
 
 /*accessibility*/
 .ul {
