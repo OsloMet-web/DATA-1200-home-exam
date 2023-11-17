@@ -110,6 +110,7 @@ article{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+    position: center;
 }
 
 .flex-container {
@@ -151,26 +152,35 @@ article{
     margin-top: 10px;
 }
 
-/* ... Existing styles ... */
-/* Legg til denne delen i stilarket */
+/* stylen for staff */
+
 .staff-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: rgb(240, 245, 242);
+    
 }
 
 .staff-member {
-    margin-bottom: 20px;
+    width: 45%; /* Juster bredden av hvert staff-member-element */
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .staff-member img {
-    width: 100%;
-    max-width: 300px;
+    width: 20%;
+    max-width: 30px;
     height: auto;
     border-radius: 10px;
 }
 
 .staff-member p {
     margin-top: 10px;
+    color: #555;
+   
 }
 
 /*accessibility*/
