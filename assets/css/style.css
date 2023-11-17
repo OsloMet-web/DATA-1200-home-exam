@@ -298,6 +298,7 @@ footer a:hover {
 }
 
 .errors{
+    margin-top: 5px;
 }
 
 .contrast-errors{
@@ -305,7 +306,7 @@ footer a:hover {
       
 }
 
-.results{
+.access-results{
     width: 80%;
 
 }
