@@ -173,8 +173,8 @@ article{
 }
 
 /*accessibility*/
-.ul {
-list-style-type: circle;
-margin: 5px;
+.unordered-list{
+    list-style-type: square;
+    margin: 10px;
 }
 
