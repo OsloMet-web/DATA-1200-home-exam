@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 */
-#circle-container {
+#logo-container {
     width: 150px;
     height:150px;
     margin: 0 auto;
@@ -34,7 +34,7 @@
     border-radius: 50%;
 }
 .grid-col-span-5 {
-    grid-column: span 5;
+    grid-column: span 2;
 }
 .grid-container {
     display: grid;
@@ -50,6 +50,7 @@
     font-size: 1.5em;
     text-align: center;
 }
+
 
 /*Menu header*/
 
