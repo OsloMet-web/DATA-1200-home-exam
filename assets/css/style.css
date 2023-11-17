@@ -2,8 +2,20 @@
 
 /*--------------------------Topical page*/
 /*-----logo*/
+/*
+.logo {
+    width: 25%;
+    
+}
 
-#logo-container {
+
+#center-about{
+    
+    width:33%;
+    margin: 0 auto;
+}
+*/
+#circle-container {
     width: 150px;
     height:150px;
     margin: 0 auto;
@@ -83,7 +95,8 @@
 }
 
 article{
-    margin: 100px 140px;   
+    margin: 100px 140px; 
+    width: 80%;  
     
 }
 .located {
