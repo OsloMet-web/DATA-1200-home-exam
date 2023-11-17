@@ -288,5 +288,24 @@ footer a:hover {
 .unordered-list{
     list-style-type:disc;
     margin: 10px;
+    width: 70%;
 }
 
+.unordered-list-2{
+    list-style-type: none;
+    
+
+}
+
+.errors{
+}
+
+.contrast-errors{
+    margin-top: 5px;
+      
+}
+
+.results{
+    width: 80%;
+
+}
