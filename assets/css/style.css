@@ -203,18 +203,16 @@ article{
 
 /* stylen for staff */
 
-/* Legg til denne delen i stilarket (style.css) */
-
-.staff-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 20px;
-    background-color: rgb(240, 245, 242);
+.staff-section { /*stylen på box til staff*/
+    display: flex; /*denne gjør at elemente bli til en flex box og følge etter den*/
+    flex-wrap: wrap; /*gjør at når det er ikke nok plass til alle boxene, så skal de nye boxene være på neste linje */
+    justify-content: space-around; /*denne gir nok og og lik plass rundt alle elemneten */
+    align-items: flex-start;/**/
+    padding: 20px;/*denne brukes til å skape plass rundt innholdet til et element, innenfor alle definerte kanter.*/
+    background-color: rgb(240, 245, 242); /*denne er for å bestemme bakgrunn farge til boxene*/
 }
 
-.text-section {
+.text-section {/*stylen for teksten inn i boxene*/
     text-align: center;
     width: 100%;
     margin-bottom: 20px;

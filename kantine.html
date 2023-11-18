@@ -21,13 +21,13 @@
     </header>
 
     <main>
-        <section class="text-section">
+        <section class="text-section"> <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section-->
             <h1>Welcome to the university Canteen at P35</h1>
             <h2><small> Here you can enjoy healthy complete meals</small></h2>
-        </section>
+        
 
-        <section class="flex-container">
-            <div class="image-box">
+        <div class="flex-container"> <!--brukt flex boxer for inhholdet i kantine, slik at hver box har sitt eget bilde med beskrivesle av kantinen-->
+            <div class="image-box"> <!--alle de fire boxene har samme styl i css siden -->
                 <h2>Meals just like home</h2>
                 <img class="line1-right" src="assets/images/kantine1.png" alt="Our Canteen">
                 <div class="image-text">
@@ -71,9 +71,9 @@
                     </dl>
                 </div>
             </div>
-        </section>
+        </div>
       
-    <section class="staff-section">
+    <div class="staff-section"> <!--her brukte en ny flex box med eget design enn den forrige boxen, fordi den skal presentere staff som jobber i kantine. her ble brukt fem box's med bbilde hver og mail addresse-->
         <div class="text-section">
             <h3>Our staff</h3>
         </div>
@@ -104,12 +104,12 @@
             <p>Bbokari</p>
             <dl>bbokari@oslomet.no</dl>
         </div>
+    </div>
     </section>
-        
+
 </main>
 
-<footer>
-    <footer>
+<footer><!--her er footeren våres som innholder kontakt informasjon og linker til det ulike sidene vi har, i tillegg til linker til oslomet sine sosiale medier, og på slutten har Copyright -->
         <div class="footer-content">
             <div class="contact-info">
                 <h3>Contact</h3>
@@ -145,8 +145,7 @@
             <p>&copy; 2023 P35 Oslomet. Alle rettigheter reservert.</p>
         </div>
     </footer>
-    
-</footer>
+
 </body>
 
 </html>
