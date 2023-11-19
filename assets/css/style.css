@@ -76,8 +76,7 @@
 .menu-header {
     float: none;
     display: inline-flexbox;
-    background-color:rgb(0, 75, 30);
-    padding-top: 66px;
+    background-color:rgb(0, 75, 30);    
     margin: auto;
     width: 100%;
 }
@@ -108,17 +107,16 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    background-color: rgb(240, 245, 242);
+    background-color: rgb(240, 245, 242);    
     padding: 20px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: flex-start;
     width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer; /* Add a pointer to indicate that the image is clickable */
     transition: transform 0.3s ease; /* Add transition effect for zoom */
 }
-
 .oslomet-logo{
     display: flex;
     align-items: center;
@@ -146,12 +144,13 @@ article{
     margin: 40px auto; 
     width: 80%;
     font-size: medium;
-    margin-top: 100px;
+    margin-top: 30px;
     
 }
 .image-container {
     position: relative;
     display: inline-block;
+    margin-top: 40px;
 }
   
 .text-overlay {
@@ -320,7 +319,6 @@ footer a:hover {
     text-decoration: underline; /* Legg til understrekning på hover hvis ønskelig */
 }
 
-
 /* Juster stilene for sosiale medieikoner her hvis nødvendig */
 
 .copyright {
@@ -355,5 +353,141 @@ footer a:hover {
 
 .access-results{
     width: 80%;
-
 }
+
+/*active menu is highligh*/
+.active-menu {
+    font-weight: 900;       
+}
+
+/*h1 align to center*/
+h1 {
+    text-align: center;
+}
+
+.column-div {
+    float: left;
+    width: 33%;
+    border-left: 1px solid #bac5c6;
+    border-right: 1px solid #bac5c6;
+    text-align: center;
+ }
+
+ /* The floats after the columns are cleared */
+ .row-div:after {
+   content: “”;
+   display: table;
+   clear: both;
+ }
+
+ .row-div {
+    margin-top: 40px;    
+ }
+
+  /* section with images and text */
+.section-col-div {
+    text-align: center;
+    padding: 10px;        
+}
+
+ /* make the images oval */
+.oval-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;    
+    background-size: cover;
+}
+.oval-image::after {
+    content: "";
+    position: absolute;
+    width: 140px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+  }
+  
+/* padding commonl used */
+.padding {
+    padding: 10px; 
+}
+/* CSS to create custom link behaviour */
+.padding > a {
+    color: #555;
+    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    font-weight: bolder;    
+}
+.padding > a:link { 
+    text-decoration: none; 
+}
+.padding > a:visited {
+     text-decoration: none;
+ }
+
+
+.padding > a:hover {
+     text-decoration: underline; 
+}
+.padding > a:active {
+     text-decoration: none; 
+}
+
+/* CSS to create custom link with a box in the text */
+.box-link {
+    text-align: center;
+    border: 2px solid #862323;
+    display:inline-block;  
+    padding: 20px;
+    margin-top: 20px;
+}
+.box-link:hover {
+    background-color: yellow;
+}
+.box-link > a:hover {
+    text-decoration: none; 
+}
+.box-link > a:link { 
+    text-decoration: none; 
+}
+.box-link > a:visited {
+     text-decoration: none;
+ }
+ .box-link > a {
+    color: black;
+    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    font-weight: bolder;    
+}
+/* CSS for a footer starting div */
+.footer-starter {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #bac5c6;
+    margin-bottom: 30px;    
+}
+
+.footer-starter > div {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.footer-starter-box {
+    text-align: center;
+    border: 2px solid #862323;
+    display:inline-block;  
+    padding: 10px;
+    background-color: black;    
+}
+/* CSS for a footer link in a box */
+.footer-starter-box > a:hover {
+    text-decoration: none; 
+}
+.footer-starter-box > a:link { 
+    text-decoration: none; 
+}
+.footer-starter-box > a:visited {
+     text-decoration: none;
+ }
+ .footer-starter-box > a {
+    color: white;
+    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    font-weight: bolder;    
+}
+
