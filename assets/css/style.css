@@ -2,19 +2,7 @@
 
 /*--------------------------Topical page*/
 /*-----logo*/
-/*
-.logo {
-    width: 25%;
-    
-}
 
-
-#center-about{
-    
-    width:33%;
-    margin: 0 auto;
-}
-*/
 #logo-container {
     width: 150px;
     height:150px;
@@ -406,27 +394,27 @@ h1 {
   }
   
 /* padding commonl used */
-.padding {
+.topical-para-padding {
     padding: 10px; 
 }
 /* CSS to create custom link behaviour */
-.padding > a {
+.topical-para-padding > a {
     color: #555;
     text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
     font-weight: bolder;    
 }
-.padding > a:link { 
+.topical-para-padding > a:link { 
     text-decoration: none; 
 }
-.padding > a:visited {
+.topical-para-padding > a:visited {
      text-decoration: none;
  }
 
 
-.padding > a:hover {
+.topical-para-padding > a:hover {
      text-decoration: underline; 
 }
-.padding > a:active {
+.topical-para-padding > a:active {
      text-decoration: none; 
 }
 
