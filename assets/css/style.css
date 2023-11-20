@@ -170,7 +170,9 @@ article{
     height: auto;
     display: block;
 }
+
 /* For kantine */
+
 .text-section {
     text-align: center;
     margin-top: 10px;
@@ -196,12 +198,12 @@ article{
     text-align: center;
     flex: 0 0 calc(33.333% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* Add a pointer to indicate that the image is clickable */
-    transition: transform 0.3s ease; /* Add transition effect for zoom */
+    cursor: pointer; /* pointer to indicate that the image is clickable */
+    transition: transform 0.3s ease; /* transition effect for zoom */
 }
 
 .image-box:hover {
-    transform: scale(1.1); /* Increase size on hover */
+    transform: scale(1.1);
 }
 
 .line1-right {
@@ -235,7 +237,7 @@ article{
 }
 
 .staff-member {
-    width: 15%; /* Juster bredden av hvert staff-member-element */
+    width: 15%; /* Justerer bredden av hvert staff-member-element */
     margin-bottom: 20px;
     text-align: center;
     background-color: #fff;
@@ -246,10 +248,10 @@ article{
 }
 
 .staff-member:hover {
-    transform: scale(1.05); /* Øk størrelsen litt på hover */
+    transform: scale(1.05); 
 }
 
-.staff-member img {
+.staff-member img { /*justerer høyden og bredden for staff images*/
     width: 20%;
     max-width: 20%;
     height: auto;
@@ -296,26 +298,20 @@ footer {
 .footer-content li {
     margin-bottom: 5px;
 }
-/* Legg til denne delen i stilarket (style.css) */
 
 footer a {
     color: white;
-    text-decoration: none; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    text-decoration: none; /* Fjerner understrekningen fra lenkene*/
 }
 
 footer a:hover {
-    text-decoration: underline; /* Legg til understrekning på hover hvis ønskelig */
+    text-decoration: underline;
 }
-
-/* Juster stilene for sosiale medieikoner her hvis nødvendig */
 
 .copyright {
     margin-top: 20px;
     font-size: 0.9em;
 }
-
-/* Oppdater font-stiler og farger etter behov */
-
 
 /*accessibility*/
 .unordered-list{
