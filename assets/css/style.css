@@ -421,13 +421,13 @@ h1 {
 /* CSS to create custom link with a box in the text */
 .box-link {
     text-align: center;
-    border: 2px solid #862323;
+    border: 2px solid rgb(0, 75, 30);
     display:inline-block;  
     padding: 20px;
     margin-top: 20px;
 }
 .box-link:hover {
-    background-color: yellow;
+    background-color: rgb(0, 75, 30);
 }
 .box-link > a:hover {
     text-decoration: none; 
