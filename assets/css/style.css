@@ -189,7 +189,7 @@ article{
 /* CSS to create custom link behaviour */
 .para-padding > a {
     color: #555;
-    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    text-decoration: solid; 
     font-weight: bolder;    
 }
 .para-padding > a:link { 
@@ -230,7 +230,7 @@ article{
  }
  .box-link > a {
     color: black;
-    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    text-decoration: solid; 
     font-weight: bolder;    
 }
 /*--------------------------Topical page*/
@@ -393,15 +393,20 @@ article{
 
 /*accessibility*/
 
+
+h1 {
+    text-align: center; /*h1 align to center*/
+    
+}
+
 .main-content {
     text-align: left;
     margin: auto;
     width: 80%;
 }
-/*h1 align to center*/
-h1 {
-    text-align: center;
-    
+
+.contrast-errors{
+    margin-top: 5px; /*adds space for the label to look more presentable */
 }
 
 .unordered-list{
@@ -463,11 +468,11 @@ footer {
 
 footer a {
     color: white;
-    text-decoration: none; /* removes underlines on links*/
+    text-decoration: none; /*removes underlines on links*/
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /*adds underline */
 }
 
 .copyright {
