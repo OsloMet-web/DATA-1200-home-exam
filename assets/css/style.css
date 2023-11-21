@@ -120,7 +120,7 @@ article{
 
 
 
-/*kolonne i homepage*/
+/*colons in homepage*/
 
 .column-div {    
     float: left;
@@ -394,6 +394,11 @@ article{
 
 /*accessibility*/
 
+.main-content {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
 /*h1 align to center*/
 h1 {
     text-align: center;
@@ -402,27 +407,13 @@ h1 {
 
 .unordered-list{
     list-style-type:disc;
-    margin: 10px;
-    width: 70%;
+    
 }
 
 .unordered-list-2{
     list-style-type: none;
     
 
-}
-
-.errors{
-    margin-top: 5px;
-}
-
-.contrast-errors{
-    margin-top: 5px;
-      
-}
-
-.access-results{
-    width: 80%;
 }
 
 .wave-image {
