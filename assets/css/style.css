@@ -18,7 +18,7 @@
     color:white;
 }
 
-/*active menu is highligh*/
+/*active menu is highlighted*/
 .active-menu {
     font-weight: 900;       
 }
@@ -84,8 +84,7 @@ article{
 }
 .image-container {
     position: relative;
-    display: inline-block;
-    
+    display: inline-block;    
 }
   
 .text-overlay {
@@ -125,11 +124,17 @@ article{
 .column-div {    
     float: left;
     width: 33%;
-    border-left: 1px solid #bac5c6;
-    border-right: 1px solid #bac5c6;
     text-align:center;
     column-gap: 5px;
     position: relative;
+}
+
+#lecture-div {
+    border-right: 1px solid #bac5c6;
+}
+
+#canteen-div {
+    border-left: 1px solid #bac5c6;
 }
 
  /* The floats after the columns are cleared */
