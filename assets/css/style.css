@@ -121,7 +121,114 @@ article{
 
 
 
+/*kolonne i homepage*/
 
+.column-div {    
+    float: left;
+    width: 33%;
+    border-left: 1px solid #bac5c6;
+    border-right: 1px solid #bac5c6;
+    text-align:center;
+    column-gap: 5px;
+    position: relative;
+}
+
+ /* The floats after the columns are cleared */
+.row-div:after {
+   content: “”;
+   display: table;
+   clear: both;
+}
+
+.row-div {
+    margin-top: 40px;   
+
+}
+
+  /* section with images and text */
+.section-col-div {
+    position: relative;
+    overflow: hidden;    
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+    flex: 0 0 calc(33.333% - 20px);   
+    cursor: pointer; /* pointer to indicate that the image is clickable */
+    transition: transform 0.3s ease; /* transition effect for zoom */        
+}
+
+
+/* make the images oval */
+.oval-image {
+    width: 200px;
+    height: 200px;    
+    border-radius: 50%;    
+    background-size: cover;
+    object-fit: cover;
+}
+.oval-image::after {
+    content: "";
+    position: relative;    
+    border: 10px solid #000000;
+    border-radius: 50%;
+}
+
+.oval-image:hover {
+    transform: scale(1.1);
+}
+  
+/* padding commonl used */
+.para-padding {
+    padding: 10px;    
+}
+/* CSS to create custom link behaviour */
+.para-padding > a {
+    color: #555;
+    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    font-weight: bolder;    
+}
+.para-padding > a:link { 
+    text-decoration: none; 
+}
+.para-padding > a:visited {
+     text-decoration: none;
+ }
+
+
+.para-padding > a:hover {
+     text-decoration: underline; 
+}
+.para-padding > a:active {
+     text-decoration: none; 
+}
+
+
+/* CSS to create custom link with a box in the text */
+.box-link {
+    text-align: center;
+    border: 2px solid rgb(0, 75, 30);
+    display:inline-block;  
+    padding: 20px;
+    margin-top: 20px;
+}
+.box-link:hover {
+    background-color: rgb(0, 75, 30);
+}
+.box-link > a:hover {
+    text-decoration: none; 
+}
+.box-link > a:link { 
+    text-decoration: none; 
+}
+.box-link > a:visited {
+     text-decoration: none;
+ }
+ .box-link > a {
+    color: black;
+    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    font-weight: bolder;    
+}
 /*--------------------------Topical page*/
 /*-----logo*/
 #topical-title{
@@ -281,43 +388,13 @@ article{
 
 
 /*accessibility*/
-.unordered-list{
-    list-style-type:disc;
-    margin: 10px;
-    width: 70%;
-}
 
-.unordered-list-2{
-    list-style-type: none;
+/*h1 align to center*/
+h1 {
+    text-align: center;
     
-
 }
 
-.errors{
-    margin-top: 5px;
-}
-
-.contrast-errors{
-    margin-top: 5px;
-      
-}
-
-.access-results{
-    width: 80%;
-}
-
-.wave-image {
-    height: 25%;
-    width: 25%;
-    cursor: pointer;
-}
-.wave-image:hover {
-    height: 100%;
-    width: 100%;
-}
-
-
-/*accessibility*/
 .unordered-list{
     list-style-type:disc;
     margin: 10px;
@@ -403,6 +480,7 @@ footer a:hover {
     font-size: 0.9em;
 }
 
+<<<<<<< HEAD
 /*accessibility*/
 .unordered-list{
     list-style-type:disc;
@@ -540,6 +618,8 @@ footer a:hover {
     text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
     font-weight: bolder;    
 }
+=======
+>>>>>>> bc6d2cd7b768ef211647ae2743213c778c1194a5
 /* CSS for a footer starting div */
 .footer-starter {
     display: flex;
