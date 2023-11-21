@@ -8,16 +8,19 @@
     
 </head>
 <body>
-    <header>
-    </div>
-    <div class="menu-header">
-        <a href="index.html"><img src="assets/images/p35logo.png"></a>
-        <a href="topical.html">Tips</a>
-        <a href="kantine.html">Canteen</a>
-        <a class="active-menu" href="accessibility.html">Accessibility results</a>
-    </div>
-    </header>
+     <!-- Header element of the page-->
+     <header>
+        <nav>
+            <div class="menu-header">
+                <a href="index.html"><img src="assets/images/p35logo.png" alt="P35"></a>
+                <a href="topical.html">Tips</a>
+                <a href="kantine.html">Canteen</a>
+                <a href="accessibility.html">Accessibility results</a>
+            </div>
+        </nav>
 
+    </header>
+    <!-- Main contents of the page-->
     <main>
         <h1>Accessibility and Universal Design</h1>
 
@@ -28,80 +31,130 @@
         ensuring that anyone, regardless of disabilities, can benefit from them. 
        </p>
 
-
        <h3> Specific coding choices</h3>
        <p>
-        Our topical page <a href="topical.html">"5 ways to thrive when in university"</a> contains styling properties that takes accessibility into consideration in multiple ways. 
-       
-        
+        All our pages contains styling properties that takes accessibility into consideration in multiple ways.       
         <ul class="unordered-list"> <!-- unordered list-->
-            <li>Scaling:</li>
-            <li>Colors: Proper contrast so that people with impaired vision can wiew the page without strain, 
-                and use of some elements ..bla bla bla.. </li>
-            
-            <li>Focus state: Possibly using offset property so the text is more clear.</li>
-            <li>Text size: Helps with readability for visually impaired users.</li>
-            <li>Link states: Having different link states can help a range of people.
-                <ul>
-                    <li> Hover states can help those with muscle movement issues to know when to click.</li>
-                    <li>Focus links for those who use keyboards to know what link they are activating.</li>
-                    <li>Visited states for those with short term memory loss to know what pages they already have seen.</li>
-                </ul>
-            <li> Hover state: When the user hovers over the page, bold font or underlines will appear to show the selected links.
-                This can be beneficial for those with motor issues and vision impairment.</li>
-            <li> Images: Description of images.</li>
-            <li>Underline:</li>
+            <li>
+                <b>Well Structured:</b>
+                <br>
+                The pages were designed so it has a well structure design with Header, footer, main content seperated out in a structured manner.
+                <br>
+                Also made sure to start and end the tags accordingly during development.
+            </li>
+            <li>
+                <b>Clear content:</b>
+                <br>
+                The pages were designed so that the content is clear and can be conveyed through images and short texts with it.
+            </li>
+            <li>             
+                <b>Scaling:</b>
+                 <br>
+                 In order for the website to scale according to viewing window size and client (pc or mobile), standard scaling design practices were tried to be used.
+                 <br>
+                 Usage of percentages instead of px was preferred wherever possible. 
+                 <br>
+                Usage of em or rem instead of px.
+                <br>
+                Designing the sites header footer and content with scaling in mind.
+            </li>
+            <li>
+                <b>Colors and Contrast ratio:</b>
+                <br>                
+                The pages and colors chosen were designed so the colors have proper contrast that even people with impaired vision can view the page without strain.
+                <br>
+                To make it simple the background of the main content was chosen to white or light in color with the texts mostly being in black. 
+                <br>
+                In <a href="topical.html">Tips</a> pages which followed a different style, the colors followed were consistent with the header and footer to keep color contrast as consistent and pleasant as possible.
+            </li>
+            <li>
+                <b>Focus state:</b>
+                <br> 
+                The page considered having focus states when users hover over images or topics to make it clear the area which is read or focused.
+            </li>
+            <li>
+                <b>Text size:</b>
+                <br>
+                The pages were designed so that text sizes of all important headings and text were kept large and readable enough to help with readability for visually impaired users.
+            </li>
+            <li>
+                <b>Images and alternative texts:</b>
+                <br>
+                 All pages designed to provide alternative text for images, along with the titles                
+            <li>
+                <b>Hover state:</b>
+                <br>
+                Pages designed so that when the user hovers over the page, bold font or underlines will appear to show the selected links.
+                This can be beneficial for those with motor issues and vision impairment.
+            </li>                       
 
         </ul>  
     
-        </p>
-       
+        </p>      
 
        <h3>Accessibility results</h3>
-       <p class="access-results">
-        As previously mentioned, testing the code for accessibility
-        ensures that anyone, including disabled people, can browse our website.
-        We chose to test our code using the WAVE evaluation tool extension, 
-        because it is known as one of the most thorough accessibility checking engines. 
-        WAVE has a variation of icons which collectively shows the accessibility of the page.
-        
-        
-        <ul class="unordered-list-2">
-            <li><img src="assets/images/errors.png"> Errors:</li>
-            <li class="contrast-errors"><img src="assets/images/contrasterrors.png"> Contrast Errors:</li>
-            <li><img src="assets/images/alerts.png"> Alerts:</li>
-            <li><img src="assets/images/features.png"> Features:</li>
-            <li><img src="assets/images/structuralelements.png"> Structural elements:</li>
-            <li><img src="assets/images/aria.png"> Aria:</li>
-        </ul> 
-
-        
-        
-
-        - We chose to download the extension and it showed errors which we tried to correct...bla bla 
-        
+       <p>
+        To Test the accessibility of the pages <b>WAVE</b>, web accessibility evaluation tool was used, because it is known as one of the most thorough accessibility checking engines.
+        <br>
+        The chrome extension of WAVE was used for automatic testing of accesibility of the pages and site.
        </p>
-        
+       <p>
+        The web accessibility of the pages were tested using WAVE as detailed below:
+        <ul class="unordered-list"> <!-- unordered list-->
+            <li>
+                <b>Summary of the results:</b>
+                <br>
+                All Errors and Alerts were immidiately addressed.
+                <br>
+                There were no contrast errors found. Features and Structural elements were found to be as per universal standards as well.
+                <br>
+                <img class="wave-image" src="assets/images/wavesummary.jpg" alt="Wave Summary">                
+            </li>
+            <br>
+            <li>
+                <b>Details of the results:</b>
+                <br>
+                Details of the results were checked.
+                <br>
+                <img class="wave-image" src="assets/images/wavedetails.jpg" alt="Wave Summary">                
+            </li>
+            <br>
+            <li>
+                <b>Structural Elements:</b>
+                <br>
+                Checked the detailed structural elements of each page to see if all pages are well structured and as per the design standards.
+                <br>
+                <img class="wave-image" src="assets/images/wavestructure.jpg" alt="Wave Summary">                
+            </li>
+            <br>
+            <li>
+                <b>Contrast Ratio:</b>
+                <br>
+                The constrast ratio provided the contrast ratio on average of the page and if it has passed WCAG AA and AAA standards.
+                <br>
+                <img class="wave-image" src="assets/images/wavecontrast.jpg" alt="Wave Summary">                
+            </li>            
+        </ul>
+       </p>
 
-
-        <div class="">
-
-        /*Legger inn bilde her, og kanskje image float effekt på styling*/
-
-        </div>
-    <p>
-        As the image above shows, the results were complying with the standards for accessibility. Although we had some difficulties regarding bla bla.
-        Hvordan var accessibility resultater? Var det noen feil?
-    </p>
-    
-   
+       <p class="access-results">
+        WAVE has a variation of icons which collectively shows the accessibility of the page.             
+        <ul class="unordered-list-2">
+            <li><img src="assets/images/errors.png" alt="errors"> Errors:</li>
+            <li class="contrast-errors"><img src="assets/images/contrasterrors.png" alt="contrast errors"> Contrast Errors:</li>
+            <li><img src="assets/images/alerts.png" alt="alerts"> Alerts:</li>
+            <li><img src="assets/images/features.png" alt="features"> Features:</li>
+            <li><img src="assets/images/structuralelements.png" alt="structutural elements"> Structural elements:</li>
+            <li><img src="assets/images/aria.png" alt="aroa"> Aria:</li>
+        </ul>   
     </main>
-    <footer><!--her er footeren våres som innholder kontakt informasjon og linker til det ulike sidene vi har, i tillegg til linker til oslomet sine sosiale medier, og på slutten har Copyright -->
+    <!--her er footeren våres som innholder kontakt informasjon og linker til det ulike sidene vi har, i tillegg til linker til oslomet sine sosiale medier, og på slutten har Copyright -->    
+    <footer>
         <div class="footer-starter">
             <div>
             <h2>Keep yourself updated with Pilestredet 35</h2>
             </div>
-            <div class="footer-starter-box">
+            <div class="footer-starter-box">                
                 <a href="">Subscribe to our newsletter!</a>
             </div>
         </div>
@@ -127,18 +180,18 @@
             <div class="social-media">
                 <h3>Socials</h3>
                 <ul>
-                    <li><img src="assets/images/icon-facebook.svg" height="16px" width="16px">
+                    <li><img src="assets/images/icon-facebook.svg" height="16px" width="16px" alt="facebook">
                         <a href="https://www.facebook.com/oslomet/">Facebook</a>
                     </li>
-                    <li><img src="assets/images/icon-twitter.svg" height="16px" width="16px">
+                    <li><img src="assets/images/icon-twitter.svg" height="16px" width="16px" alt="twitter">
                         <a href="https://twitter.com/oslomet">X (Twitter)</a>
                     </li>
                     <li>
-                        <img src="assets/images/icon-linkedin.svg" height="16px" width="16px">
+                        <img src="assets/images/icon-linkedin.svg" height="16px" width="16px" alt="Linkedin">
                         <a href="https://no.linkedin.com/school/oslomet/">Linkedin</a>
                     </li>
                     <li>
-                        <img src="assets/images/icon-instagram.svg" height="16px" width="16px">
+                        <img src="assets/images/icon-instagram.svg" height="16px" width="16px" alt="Instagram">
                         <a href="https://www.instagram.com/oslomet/?hl=nb">Instagram</a>
                     </li>
                 </ul>                

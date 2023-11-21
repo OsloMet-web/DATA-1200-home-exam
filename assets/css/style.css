@@ -349,12 +349,12 @@ h1 {
     text-align: center;
 }
 
-.column-div {
+.column-div {    
     float: left;
     width: 33%;
     border-left: 1px solid #bac5c6;
     border-right: 1px solid #bac5c6;
-    text-align: center;
+    text-align: center;    
  }
 
  /* The floats after the columns are cleared */
@@ -370,47 +370,60 @@ h1 {
 
   /* section with images and text */
 .section-col-div {
+    position: relative;
+    overflow: hidden;    
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
     text-align: center;
-    padding: 10px;        
+    flex: 0 0 calc(33.333% - 20px);   
+    cursor: pointer; /* pointer to indicate that the image is clickable */
+    transition: transform 0.3s ease; /* transition effect for zoom */        
 }
+
+
 
  /* make the images oval */
 .oval-image {
     width: 200px;
-    height: 200px;
+    height: 200px;    
     border-radius: 50%;    
     background-size: cover;
+    object-fit: cover;
 }
 .oval-image::after {
     content: "";
-    position: absolute;
-    width: 140px;
+    position: relative;    
     border: 10px solid #000000;
     border-radius: 50%;
   }
+
+  .oval-image:hover {
+    transform: scale(1.1);
+}
   
 /* padding commonl used */
-.topical-para-padding {
-    padding: 10px; 
+.para-padding {
+    padding: 10px;    
 }
 /* CSS to create custom link behaviour */
-.topical-para-padding > a {
+.para-padding > a {
     color: #555;
     text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
     font-weight: bolder;    
 }
-.topical-para-padding > a:link { 
+.para-padding > a:link { 
     text-decoration: none; 
 }
-.topical-para-padding > a:visited {
+.para-padding > a:visited {
      text-decoration: none;
  }
 
 
-.topical-para-padding > a:hover {
+.para-padding > a:hover {
      text-decoration: underline; 
 }
-.topical-para-padding > a:active {
+.para-padding > a:active {
      text-decoration: none; 
 }
 
@@ -444,7 +457,7 @@ h1 {
     display: flex;
     align-items: center;
     border-bottom: 3px solid #bac5c6;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;        
 }
 
 .footer-starter > div {
@@ -452,11 +465,11 @@ h1 {
     margin-bottom: 10px;
 }
 
-.footer-starter-box {
+.footer-starter-box > a {
     text-align: center;
     border: 2px solid #862323;
-    display:inline-block;  
-    padding: 10px;
+    display: inline-block;  
+    padding: 20px;
     background-color: black;    
 }
 /* CSS for a footer link in a box */
@@ -469,9 +482,17 @@ h1 {
 .footer-starter-box > a:visited {
      text-decoration: none;
  }
- .footer-starter-box > a {
+.footer-starter-box > a {
     color: white;
     text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
     font-weight: bolder;    
 }
-
+.wave-image {
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+}
+.wave-image:hover {
+    height: 100%;
+    width: 100%;
+}
