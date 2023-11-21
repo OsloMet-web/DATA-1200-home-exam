@@ -354,6 +354,7 @@ article{
     align-items: flex-start;/*aligns flex container's items*/
     padding: 20px;/*creates space around the contents of an element, within defined borders*/ 
     background-color: rgb(240, 245, 242); /*background color for all boxes*/
+    margin-top: 40px;
 }
 
 .text-section {/*styles the texts within the boxes*/
@@ -363,7 +364,7 @@ article{
 }
 
 .staff-member {
-    width: 15%; /* adjusts the width of each staff-member element */
+    width: auto; /* adjusts the width of each staff-member element */
     margin-bottom: 20px; /*space around elements outside of defined borders */
     text-align: center;
     background-color: #fff;
@@ -371,6 +372,7 @@ article{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    
 }
 
 .staff-member:hover { 
@@ -384,12 +386,11 @@ article{
     border-radius: 10px;
 }
 
-.staff-member p {
+.staff-member p{
     margin-top: 10px;
     color: #555;
     font-size: 16px;
 }
-
 
 /*accessibility*/
 
@@ -538,6 +539,7 @@ footer a:hover {
     }
  
 }
+/*media queries for some elements in homepage to adjust the display*/
 @media (max-width:850px){
     .column-div{
         display: block;
@@ -547,7 +549,7 @@ footer a:hover {
         padding: 14px;
     }
     #lecture-div, #canteen-div{
-        border: none;
+        border: none; 
     }
 
 }
