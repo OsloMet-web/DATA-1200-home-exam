@@ -172,7 +172,7 @@ article{
 }
 
 
-/*Canteeen */
+/*Canteeen*/
 
 .text-section {
     text-align: center;
@@ -220,7 +220,6 @@ article{
     margin-top: 10px;
 }
 
-/* stylen for staff */
 
 .staff-section { /*styles the staff boxes*/
     display: flex; /*activates flex containers*/
@@ -316,6 +315,13 @@ footer a:hover {
 
 
 /*accessibility*/
+
+.main-content{
+text-align: left;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
 
 .unordered-list{
     list-style-type:disc;
