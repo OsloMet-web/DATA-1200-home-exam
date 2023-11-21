@@ -191,7 +191,7 @@ article{
 /* CSS to create custom link behaviour */
 .para-padding > a {
     color: #555;
-    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    text-decoration: solid; 
     font-weight: bolder;    
 }
 .para-padding > a:link { 
@@ -232,7 +232,7 @@ article{
  }
  .box-link > a {
     color: black;
-    text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
+    text-decoration: solid; 
     font-weight: bolder;    
 }
 /*--------------------------Topical page*/
@@ -327,8 +327,8 @@ article{
     text-align: center;
     flex: 0 0 calc(33.333% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* pointer to indicate that the image is clickable */
-    transition: transform 0.3s ease; /* transition effect for zoom */
+    cursor: pointer; /* pointer the image is clickable */
+    transition: transform 0.3s ease; /* transition for zoom */
 }
 
 .image-box:hover {
@@ -395,15 +395,20 @@ article{
 
 /*accessibility*/
 
+
+h1 {
+    text-align: center; /*h1 align to center*/
+    
+}
+
 .main-content {
     text-align: left;
     margin: auto;
     width: 80%;
 }
-/*h1 align to center*/
-h1 {
-    text-align: center;
-    
+
+.contrast-errors{
+    margin-top: 5px; /*adds space for the label to look more presentable */
 }
 
 .unordered-list{
@@ -465,11 +470,11 @@ footer {
 
 footer a {
     color: white;
-    text-decoration: none; /* removes underlines on links*/
+    text-decoration: none; /*removes underlines on links*/
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /*adds underline */
 }
 
 .copyright {
