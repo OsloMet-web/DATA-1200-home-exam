@@ -10,3 +10,8 @@ gjkar2334
 sitew6931
 
 riram5227
+ sources: 
+ https://www.w3schools.com/html/html_images_picture.asp
+ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+ https://github.com/mdn/learning-area/tree/main/css/css-layout/flexbox
+ 
