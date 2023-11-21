@@ -329,14 +329,20 @@ footer a:hover {
 
 }
 
-.errors{
+
+.errorsl{ /*styles errors label */
     margin-top: 5px;
 }
 
-.contrast-errors{
+.contrast-errors{ /*styles contrast errors label*/
     margin-top: 5px;
       
 }
+
+.alerts{
+    margin-top: 5px;
+}
+
 
 .access-results{
     width: 80%;
