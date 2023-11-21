@@ -45,8 +45,7 @@
     flex-direction: column;
     background-color: rgb(240, 245, 242);    
     padding: 20px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 20px auto;
     text-align: flex-start;
     width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -86,7 +85,7 @@ article{
 .image-container {
     position: relative;
     display: inline-block;
-    margin-top: 40px;
+    
 }
   
 .text-overlay {
