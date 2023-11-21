@@ -174,7 +174,8 @@ article{
     display: block;
 }
 
-/* For kantine */
+
+/*Canteeen*/
 
 .text-section {
     text-align: center;
@@ -222,26 +223,25 @@ article{
     margin-top: 10px;
 }
 
-/* stylen for staff */
 
-.staff-section { /*stylen på box til staff*/
-    display: flex; /*denne gjør at elemente bli til en flex box og følge etter den*/
-    flex-wrap: wrap; /*gjør at når det er ikke nok plass til alle boxene, så skal de nye boxene være på neste linje */
-    justify-content: space-around; /*denne gir nok og og lik plass rundt alle elemneten */
-    align-items: flex-start;/**/
-    padding: 20px;/*denne brukes til å skape plass rundt innholdet til et element, innenfor alle definerte kanter.*/
-    background-color: rgb(240, 245, 242); /*denne er for å bestemme bakgrunn farge til boxene*/
+.staff-section { /*styles the staff boxes*/
+    display: flex; /*activates flex containers*/
+    flex-wrap: wrap; /*wraps flex containers*/ 
+    justify-content: space-around; /*space before, between and after items*/
+    align-items: flex-start;/*aligns flex container's items*/
+    padding: 20px;/*creates space around the contents of an element, within defined borders*/ 
+    background-color: rgb(240, 245, 242); /*background color for all boxes*/
 }
 
-.text-section {/*stylen for teksten inn i boxene*/
+.text-section {/*styles the texts within the boxes*/
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .staff-member {
-    width: 15%; /* Justerer bredden av hvert staff-member-element */
-    margin-bottom: 20px;
+    width: 15%; /* adjusts the width of each staff-member element */
+    margin-bottom: 20px; /*space around elements outside of defined borders */
     text-align: center;
     background-color: #fff;
     padding: 15px;
@@ -250,11 +250,11 @@ article{
     transition: transform 0.3s ease;
 }
 
-.staff-member:hover {
-    transform: scale(1.05); 
+.staff-member:hover { 
+    transform: scale(1.05); /*size increase of flex containers as mouse hovers over them*/
 }
 
-.staff-member img { /*justerer høyden og bredden for staff images*/
+.staff-member img { /* adjusts the height and width for staff images*/
     width: 20%;
     max-width: 20%;
     height: auto;
@@ -264,7 +264,7 @@ article{
 .staff-member p {
     margin-top: 10px;
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*for footer*/
@@ -305,7 +305,7 @@ footer {
 
 footer a {
     color: white;
-    text-decoration: none; /* Fjerner understrekningen fra lenkene*/
+    text-decoration: none; /* removes underlines on links*/
 }
 
 footer a:hover {
@@ -317,7 +317,16 @@ footer a:hover {
     font-size: 0.9em;
 }
 
+
 /*accessibility*/
+
+.main-content{
+text-align: left;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
 .unordered-list{
     list-style-type:disc;
     margin: 10px;
@@ -330,20 +339,26 @@ footer a:hover {
 
 }
 
-.errors{
+
+.errorsl{ /*styles errors label */
     margin-top: 5px;
 }
 
-.contrast-errors{
+.contrast-errors{ /*styles contrast errors label*/
     margin-top: 5px;
       
 }
+
+.alerts{
+    margin-top: 5px;
+}
+
 
 .access-results{
     width: 80%;
 }
 
-/*active menu is highligh*/
+/*active menu is highlighted*/
 .active-menu {
     font-weight: 900;       
 }

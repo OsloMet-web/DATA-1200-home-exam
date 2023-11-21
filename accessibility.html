@@ -21,7 +21,7 @@
 
     </header>
     <!-- Main contents of the page-->
-    <main>
+    <main class="main-content">
         <h1>Accessibility and Universal Design</h1>
 
         <h2> A world of universal design </h2> 
@@ -94,19 +94,33 @@
 
        <h3>Accessibility results</h3>
        <p>
-        To Test the accessibility of the pages <b>WAVE</b>, web accessibility evaluation tool was used, because it is known as one of the most thorough accessibility checking engines.
+        To test the accessibility of the pages <b>WAVE</b> web accessibility evaluation tool was used, because it is known as one of the most thorough accessibility checking engines.
         <br>
         The chrome extension of WAVE was used for automatic testing of accesibility of the pages and site.
        </p>
+
+        <p class="access-results">
+            WAVE has a variation of labels which collectively shows the accessibility of the page.             
+            <ul class="unordered-list-2">
+                <li class="errors"><img src="assets/images/errors.png" alt="errors"> Errors: For example missing alternative texts </li>
+                 <li class="contrast-errors"><img src="assets/images/contrasterrors.png" alt="contrast errors"> Contrast Errors: For example poor contrast between text and background color. </li>
+                 <li class="alerts"><img src="assets/images/alerts.png" alt="alerts"> Alerts: For example skipped heading levels and redundant links.</li>
+                 <li><img src="assets/images/features.png" alt="features"> Features: For example empty alternative texts, linked images with alternative texts, figures and language.</li>
+                 <li><img src="assets/images/structuralelements.png" alt="structural elements"> Structural elements: For example different heading levels, lists, main content, navigation, headers and footers.</li>
+                 <li><img src="assets/images/aria.png" alt="aria"> Aria: A label that provides extra information on the purpose for certain elements, benefiting assistive technology like screen readers.</li>
+            </ul>
+        </p>
+ 
+
        <p>
-        The web accessibility of the pages were tested using WAVE as detailed below:
+        The web accessibility of the pages were tested using WAVE as shown below:
         <ul class="unordered-list"> <!-- unordered list-->
             <li>
                 <b>Summary of the results:</b>
                 <br>
-                All Errors and Alerts were immidiately addressed.
+                All errors and alerts were immediately addressed.
                 <br>
-                There were no contrast errors found. Features and Structural elements were found to be as per universal standards as well.
+                There were no contrast errors found. Features and structural elements were found to be as per universal standards as well.
                 <br>
                 <img class="wave-image" src="assets/images/wavesummary.jpg" alt="Wave Summary">                
             </li>
@@ -130,23 +144,16 @@
             <li>
                 <b>Contrast Ratio:</b>
                 <br>
-                The constrast ratio provided the contrast ratio on average of the page and if it has passed WCAG AA and AAA standards.
+                The constrast ratio provids the ratio of contrast on average of the page and tells if it has passed WCAG AA and AAA standards.
                 <br>
                 <img class="wave-image" src="assets/images/wavecontrast.jpg" alt="Wave Contrast">                
             </li>            
         </ul>
-       </p>
 
-       <p class="access-results">
-        WAVE has a variation of icons which collectively shows the accessibility of the page.             
-        <ul class="unordered-list-2">
-            <li><img src="assets/images/errors.png" alt="errors"> Errors:</li>
-            <li class="contrast-errors"><img src="assets/images/contrasterrors.png" alt="contrast errors"> Contrast Errors:</li>
-            <li><img src="assets/images/alerts.png" alt="alerts"> Alerts:</li>
-            <li><img src="assets/images/features.png" alt="features"> Features:</li>
-            <li><img src="assets/images/structuralelements.png" alt="structutural elements"> Structural elements:</li>
-            <li><img src="assets/images/aria.png" alt="aroa"> Aria:</li>
-        </ul>   
+        <p><a href=" http://wave.webaim.org/report?url=https://oslomet-web.github.io/DATA-1200-home-exam/index.html ">Accessibility test on the introductory page</a></p>
+       
+        
+
     </main>
     <!--her er footeren våres som innholder kontakt informasjon og linker til det ulike sidene vi har, i tillegg til linker til oslomet sine sosiale medier, og på slutten har Copyright -->    
     <footer>
@@ -181,18 +188,18 @@
                 <h3>Socials</h3>
                 <ul>
                     <li><img src="assets/images/icon-facebook.svg" height="16px" width="16px" alt="facebook">
-                        <a href="https://www.facebook.com/oslomet/">Facebook</a>
+                        <a href="https://www.facebook.com/oslomet/" target="_blank">Facebook</a>
                     </li>
                     <li><img src="assets/images/icon-twitter.svg" height="16px" width="16px" alt="twitter">
-                        <a href="https://twitter.com/oslomet">X (Twitter)</a>
+                        <a href="https://twitter.com/oslomet" target="_blank">X (Twitter) </a>
                     </li>
                     <li>
                         <img src="assets/images/icon-linkedin.svg" height="16px" width="16px" alt="Linkedin">
-                        <a href="https://no.linkedin.com/school/oslomet/">Linkedin</a>
+                        <a href="https://no.linkedin.com/school/oslomet/" target="_blank">Linkedin</a>
                     </li>
                     <li>
                         <img src="assets/images/icon-instagram.svg" height="16px" width="16px" alt="Instagram">
-                        <a href="https://www.instagram.com/oslomet/?hl=nb">Instagram</a>
+                        <a href="https://www.instagram.com/oslomet/?hl=nb" target="_blank">Instagram</a>
                     </li>
                 </ul>                
             </div>
