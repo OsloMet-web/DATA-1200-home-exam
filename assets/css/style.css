@@ -340,23 +340,7 @@ margin-right: 10px;
 }
 
 
-.errorsl{ /*styles errors label */
-    margin-top: 5px;
-}
 
-.contrast-errors{ /*styles contrast errors label*/
-    margin-top: 5px;
-      
-}
-
-.alerts{
-    margin-top: 5px;
-}
-
-
-.access-results{
-    width: 80%;
-}
 
 /*active menu is highlighted*/
 .active-menu {
