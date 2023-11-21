@@ -145,7 +145,10 @@ article{
    display: table;
    clear: both;
 }
+.row-div {
+    margin-top: 40px;   
 
+}
 
   /* section with images and text */
 .section-col-div {
