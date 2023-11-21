@@ -146,10 +146,6 @@ article{
    clear: both;
 }
 
-.row-div {
-    margin-top: 40px;   
-
-}
 
   /* section with images and text */
 .section-col-div {
@@ -253,7 +249,6 @@ article{
     border-color:rgb(0, 75, 30);
     border-width: 3px;
     border-radius: 50%;
-    margin: 0 auto;
     float: right;
 
 }
@@ -516,4 +511,27 @@ footer a:hover {
     color: white;
     text-decoration: solid; /* Fjerner understrekningen fra lenkene hvis ønskelig */
     font-weight: bolder;    
+}
+
+
+/* ---------------------------------------Media quieries  */
+/* Media quieries for topical */
+@media  screen and (max-width:1200px){
+    .menu-header > img {
+        height: 50%;
+    }
+    .menu-header {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        line-height: 10px;
+    }
+    #logo,  .grid-item-img{
+        display: none !important; /*hides the logo and the images on devices with screen width less than 1200px*/
+    }
+    .grid-container{
+        display: block
+    }
+ 
 }
