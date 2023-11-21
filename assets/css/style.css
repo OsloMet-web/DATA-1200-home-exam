@@ -347,6 +347,7 @@ footer a:hover {
 /*h1 align to center*/
 h1 {
     text-align: center;
+    
 }
 
 .column-div {    
@@ -354,7 +355,9 @@ h1 {
     width: 33%;
     border-left: 1px solid #bac5c6;
     border-right: 1px solid #bac5c6;
-    text-align: center;    
+    text-align:center;
+    column-gap: 5px;
+    position: relative;
  }
 
  /* The floats after the columns are cleared */
@@ -383,7 +386,7 @@ h1 {
 
 
 
- /* make the images oval */
+/* make the images oval */
 .oval-image {
     width: 200px;
     height: 200px;    
