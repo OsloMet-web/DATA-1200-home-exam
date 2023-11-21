@@ -322,24 +322,14 @@ footer a:hover {
 
 .main-content{
 text-align: left;
-margin-top: 10px;
-margin-left: 10px;
-margin-right: 10px;
+margin: auto;
+width: 80%;
 }
 
-.unordered-list{
-    list-style-type:disc;
-    margin: 10px;
-    width: 70%;
-}
 
 .unordered-list-2{
     list-style-type: none;
-    
-
 }
-
-
 
 
 /*active menu is highlighted*/
@@ -347,11 +337,6 @@ margin-right: 10px;
     font-weight: 900;       
 }
 
-/*h1 align to center*/
-h1 {
-    text-align: center;
-    
-}
 
 .column-div {    
     float: left;
