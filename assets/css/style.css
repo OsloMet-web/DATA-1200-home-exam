@@ -362,7 +362,7 @@ article{
     width: 100%;
     margin-bottom: 20px;
 }
-@media (min-width:851px){
+@media (min-width:768px){
 .staff-member {
     width: auto; /* adjusts the width of each staff-member element */
     margin-bottom: 20px; /*space around elements outside of defined borders */
