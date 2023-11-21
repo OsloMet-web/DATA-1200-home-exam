@@ -301,7 +301,6 @@ footer {
 
 footer a {
     color: white;
-    text-decoration: none; /* Fjerner understrekningen fra lenkene*/
 }
 
 footer a:hover {
