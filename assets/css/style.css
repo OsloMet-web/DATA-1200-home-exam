@@ -106,7 +106,6 @@
     text-align: flex-start;
     width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* Add a pointer to indicate that the image is clickable */
     transition: transform 0.3s ease; /* Add transition effect for zoom */
 }
 .oslomet-logo{
@@ -363,18 +362,20 @@ h1 {
     text-align:center;
     column-gap: 5px;
     position: relative;
- }
+}
 
  /* The floats after the columns are cleared */
- .row-div:after {
+.row-div:after {
    content: “”;
    display: table;
    clear: both;
- }
+}
 
- .row-div {
-    margin-top: 40px;    
- }
+.row-div {
+    margin-top: 40px;   
+    margin-bottom: 40px; 
+    border: 1px black solid;
+}
 
   /* section with images and text */
 .section-col-div {
@@ -404,9 +405,9 @@ h1 {
     position: relative;    
     border: 10px solid #000000;
     border-radius: 50%;
-  }
+}
 
-  .oval-image:hover {
+.oval-image:hover {
     transform: scale(1.1);
 }
   
