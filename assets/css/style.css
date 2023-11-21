@@ -325,8 +325,8 @@ article{
     text-align: center;
     flex: 0 0 calc(33.333% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* pointer to indicate that the image is clickable */
-    transition: transform 0.3s ease; /* transition effect for zoom */
+    cursor: pointer; /* pointer the image is clickable */
+    transition: transform 0.3s ease; /* transition for zoom */
 }
 
 .image-box:hover {
