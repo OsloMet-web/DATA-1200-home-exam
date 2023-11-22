@@ -14,6 +14,7 @@ riram5227
 Kandidatnr til alle i gruppa:
 
 398, 179, 344, 485, 258
+
  sources: 
  https://www.w3schools.com/html/html_images_picture.asp
  https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
