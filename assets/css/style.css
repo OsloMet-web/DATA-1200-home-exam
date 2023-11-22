@@ -1,3 +1,62 @@
+/*--------------------------------------------------------------------------|| General styles*/
+h1 {
+    text-align: center; /*h1 align to center*/
+    
+}
+/* ----------------------------------------------------------------------- || UTILITIES */
+/* CSS to create custom link behaviour */
+/* padding commonly used */
+
+.para-padding {
+    padding: 10px;    
+}
+/* CSS to create custom link behaviour */
+.para-padding > a {
+    color: #555;
+    text-decoration: solid; 
+    font-weight: bolder;    
+}
+.para-padding > a:link { 
+    text-decoration: none; 
+}
+.para-padding > a:visited {
+     text-decoration: none;
+ }
+
+
+.para-padding > a:hover {
+     text-decoration: underline; 
+}
+.para-padding > a:active {
+     text-decoration: none; 
+}
+
+/* CSS to create custom link with a box in the text */
+.box-link {
+    text-align: center;
+    border: 2px solid rgb(0, 75, 30);
+    display:inline-block;  
+    padding: 20px;
+    margin-top: 20px;
+}
+.box-link:hover {
+    background-color: rgb(0, 75, 30);
+}
+.box-link > a:hover {
+    text-decoration: none; 
+}
+.box-link > a:link { 
+    text-decoration: none; 
+}
+.box-link > a:visited {
+     text-decoration: none;
+ }
+ .box-link > a {
+    color: black;
+    text-decoration: solid; 
+    font-weight: bolder;    
+}
+/* ----------------------------------------------------------------------------|| SITEWIDE */
 
 /*Menu header*/
 
@@ -25,7 +84,7 @@
 
 
 
-/*homepage or index.html*/
+/*-----------------------------------------------------------------Homepage or index.html*/
 /*main box*/
 .flex-box {
     display: flex;
@@ -119,18 +178,6 @@ article{
     display: block;
 }
 
-
-
-/*colons in homepage*/
-@media (min-width:851px){
-.column-div {    
-    float: left;
-    width: 33%;
-    text-align:center;
-    column-gap: 5px;
-    position: relative;
-}
-}
 #lecture-div {
     border-right: 1px solid #bac5c6;
 }
@@ -183,66 +230,15 @@ article{
     transform: scale(1.1);
 }
   
-/* padding commonl used */
-.para-padding {
-    padding: 10px;    
-}
-/* CSS to create custom link behaviour */
-.para-padding > a {
-    color: #555;
-    text-decoration: solid; 
-    font-weight: bolder;    
-}
-.para-padding > a:link { 
-    text-decoration: none; 
-}
-.para-padding > a:visited {
-     text-decoration: none;
- }
+/*-------------------------------------------------------------------------Topical page*/
 
-
-.para-padding > a:hover {
-     text-decoration: underline; 
-}
-.para-padding > a:active {
-     text-decoration: none; 
-}
-
-
-/* CSS to create custom link with a box in the text */
-.box-link {
-    text-align: center;
-    border: 2px solid rgb(0, 75, 30);
-    display:inline-block;  
-    padding: 20px;
-    margin-top: 20px;
-}
-.box-link:hover {
-    background-color: rgb(0, 75, 30);
-}
-.box-link > a:hover {
-    text-decoration: none; 
-}
-.box-link > a:link { 
-    text-decoration: none; 
-}
-.box-link > a:visited {
-     text-decoration: none;
- }
- .box-link > a {
-    color: black;
-    text-decoration: solid; 
-    font-weight: bolder;    
-}
-/*--------------------------Topical page*/
-/*-----logo*/
 #topical-title{
     text-align: center;
     font-size: 2.5em;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+/*-----logo*/
 #logo-container {
     width: 150px;
     height:150px;
@@ -298,7 +294,7 @@ article{
 
 
 
-/*Canteeen*/
+/*------------------------------------------------------------------------------------Canteeen*/
 
 .text-section {
     text-align: center;
@@ -393,13 +389,7 @@ article{
     font-size: 16px;
 }
 
-/*accessibility*/
-
-
-h1 {
-    text-align: center; /*h1 align to center*/
-    
-}
+/*------------------------------------------------------------------------------Accessibility*/
 
 .main-content {
     text-align: left;
@@ -432,7 +422,7 @@ h1 {
     width: 100%;
 }
 
-/*for footer*/
+/*----------------------------------------------------------------------------------------Footer*/
 
 footer {
     background-color: rgb(0, 75, 30);
@@ -519,7 +509,7 @@ footer a:hover {
 }
 
 
-/* ---------------------------------------Media quieries  */
+/* ------------------------------------------------------------------------Media quieries  */
 /* Media quieries for topical */
 @media  screen and (max-width:1200px){
     .menu-header > img {
@@ -541,7 +531,17 @@ footer a:hover {
  
 }
 /*media queries for some elements in homepage to adjust the display*/
-@media (max-width:850px){
+/*columns in homepage*/
+@media screen and (min-width:851px){
+    .column-div {    
+        float: left;
+        width: 33%;
+        text-align:center;
+        column-gap: 5px;
+        position: relative;
+    }
+    }
+@media screen and (max-width:850px){
     .column-div{
         display: block;
         border: none;
