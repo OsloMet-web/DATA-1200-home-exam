@@ -258,6 +258,9 @@ article{
 }
 /** https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_grid **/
 /**added more properties and changed most of the values of properties to fit our design**/
+/**https://www.youtube.com/watch?v=rg7Fvvl3taU**/
+
+
 .grid-container {
     display: grid;
     gap: 1.5rem;
